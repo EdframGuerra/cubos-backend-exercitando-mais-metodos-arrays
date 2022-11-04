@@ -16,20 +16,20 @@ const usuarios = [
 
 const validacaoUsuarios = (arrayObjeto) => {
     const resultado = arrayObjeto.filter((usuario) => {
-        return usuario.idade > 18;
+        return usuario.idade > 17 && usuario.idade < 66;
     });
 
     const ehHabilitado = resultado.every((item) => {
         return item.habilitado
     });
 
-    if (!ehHabilitado) {
+    if (ehHabilitado) {
         console.log("Todos passaram no teste");
     } else {
 
         console.log("Todos precisam estar habilitados");
-    }
-    console.log(resultado)
+    };
+
 };
 
 validacaoUsuarios(usuarios);
