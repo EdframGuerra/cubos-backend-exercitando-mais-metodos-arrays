@@ -10,8 +10,10 @@ const filtroCaracteres = cidades.filter((cidade) => {
 });
 
 
-console.log(filtroCaracteres.join(", "));
+console.log(filtroCaracteres);
 
+let arrayFormatado = filtroCaracteres.join(", ");
+console.log(arrayFormatado);
 
 
 // Extra
