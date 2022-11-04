@@ -13,4 +13,3 @@ const novoArray = frutas.map((fruta, index) => {
 
 
 console.log(novoArray);
-
