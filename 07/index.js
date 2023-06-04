@@ -1,7 +1,3 @@
-// Busca de CEP
-// Crie uma função que localize um endereço em um array através do CEP e imprima o nome da rua.
-// Dica: Utilizar o método find()
-
 const enderecos = [
     { cep: 00111222, rua: "Rua dos Artistas" },
     { cep: 00111333, rua: "Rua Augusta" },

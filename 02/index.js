@@ -8,4 +8,3 @@ if (tamanhoPalavra) {
 } else {
     console.log("Array validado");
 }
-
